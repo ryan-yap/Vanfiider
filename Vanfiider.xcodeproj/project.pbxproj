@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69A671A97E1A84498CB6F617 /* Pods_Vanfiider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EADB148421CE79F85C6FC79 /* Pods_Vanfiider.framework */; };
+		BDF6D1F296BAC4B95A46ED93 /* Pods_VanfiiderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F447BA056BDFC83D9C4306 /* Pods_VanfiiderTests.framework */; };
+		DD78B1001C9E048F00F63389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B0FF1C9E048F00F63389 /* AppDelegate.swift */; };
+		DD78B1021C9E048F00F63389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1011C9E048F00F63389 /* ViewController.swift */; };
+		DD78B1051C9E048F00F63389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD78B1031C9E048F00F63389 /* Main.storyboard */; };
+		DD78B1081C9E048F00F63389 /* Vanfiider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1061C9E048F00F63389 /* Vanfiider.xcdatamodeld */; };
+		DD78B10A1C9E048F00F63389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD78B1091C9E048F00F63389 /* Assets.xcassets */; };
+		DD78B10D1C9E048F00F63389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD78B10B1C9E048F00F63389 /* LaunchScreen.storyboard */; };
+		DD78B1181C9E048F00F63389 /* VanfiiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1171C9E048F00F63389 /* VanfiiderTests.swift */; };
+		DD78B1231C9E048F00F63389 /* VanfiiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1221C9E048F00F63389 /* VanfiiderUITests.swift */; };
+		F17A443934B7029A2803C805 /* Pods_VanfiiderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615BA5267CAE05EE9CAF562C /* Pods_VanfiiderUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD78B1141C9E048F00F63389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD78B0F41C9E048F00F63389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD78B0FB1C9E048F00F63389;
+			remoteInfo = Vanfiider;
+		};
+		DD78B11F1C9E048F00F63389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD78B0F41C9E048F00F63389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD78B0FB1C9E048F00F63389;
+			remoteInfo = Vanfiider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1561B4326CD0778520BF772A /* Pods-VanfiiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanfiiderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VanfiiderTests/Pods-VanfiiderTests.release.xcconfig"; sourceTree = "<group>"; };
+		1EADB148421CE79F85C6FC79 /* Pods_Vanfiider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vanfiider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F447BA056BDFC83D9C4306 /* Pods_VanfiiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanfiiderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615BA5267CAE05EE9CAF562C /* Pods_VanfiiderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanfiiderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DF7F1BF45B7DDA20D0F66B /* Pods-Vanfiider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vanfiider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vanfiider/Pods-Vanfiider.debug.xcconfig"; sourceTree = "<group>"; };
+		8AD2646F2365EAB38D9DAEF3 /* Pods-VanfiiderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanfiiderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VanfiiderUITests/Pods-VanfiiderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC2B8E71A9145885C12BB205 /* Pods-VanfiiderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanfiiderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VanfiiderTests/Pods-VanfiiderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD78B0FC1C9E048F00F63389 /* Vanfiider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vanfiider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD78B0FF1C9E048F00F63389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD78B1011C9E048F00F63389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD78B1041C9E048F00F63389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD78B1071C9E048F00F63389 /* Vanfiider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vanfiider.xcdatamodel; sourceTree = "<group>"; };
+		DD78B1091C9E048F00F63389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD78B10C1C9E048F00F63389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD78B10E1C9E048F00F63389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD78B1131C9E048F00F63389 /* VanfiiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanfiiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD78B1171C9E048F00F63389 /* VanfiiderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanfiiderTests.swift; sourceTree = "<group>"; };
+		DD78B1191C9E048F00F63389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD78B11E1C9E048F00F63389 /* VanfiiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanfiiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD78B1221C9E048F00F63389 /* VanfiiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanfiiderUITests.swift; sourceTree = "<group>"; };
+		DD78B1241C9E048F00F63389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FF12CD028A1E7AD949BCE8 /* Pods-Vanfiider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vanfiider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vanfiider/Pods-Vanfiider.release.xcconfig"; sourceTree = "<group>"; };
+		E86244E23EF9C542EAB63D3C /* Pods-VanfiiderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanfiiderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VanfiiderUITests/Pods-VanfiiderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD78B0F91C9E048F00F63389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A671A97E1A84498CB6F617 /* Pods_Vanfiider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD78B1101C9E048F00F63389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6D1F296BAC4B95A46ED93 /* Pods_VanfiiderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD78B11B1C9E048F00F63389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A443934B7029A2803C805 /* Pods_VanfiiderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA5636426E5A910EDDC631CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86DF7F1BF45B7DDA20D0F66B /* Pods-Vanfiider.debug.xcconfig */,
+				E4FF12CD028A1E7AD949BCE8 /* Pods-Vanfiider.release.xcconfig */,
+				DC2B8E71A9145885C12BB205 /* Pods-VanfiiderTests.debug.xcconfig */,
+				1561B4326CD0778520BF772A /* Pods-VanfiiderTests.release.xcconfig */,
+				E86244E23EF9C542EAB63D3C /* Pods-VanfiiderUITests.debug.xcconfig */,
+				8AD2646F2365EAB38D9DAEF3 /* Pods-VanfiiderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD78B0F31C9E048F00F63389 = {
+			isa = PBXGroup;
+			children = (
+				DD78B0FE1C9E048F00F63389 /* Vanfiider */,
+				DD78B1161C9E048F00F63389 /* VanfiiderTests */,
+				DD78B1211C9E048F00F63389 /* VanfiiderUITests */,
+				DD78B0FD1C9E048F00F63389 /* Products */,
+				DA5636426E5A910EDDC631CD /* Pods */,
+				EE6C108FD5507E3BEBAE7C3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD78B0FD1C9E048F00F63389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD78B0FC1C9E048F00F63389 /* Vanfiider.app */,
+				DD78B1131C9E048F00F63389 /* VanfiiderTests.xctest */,
+				DD78B11E1C9E048F00F63389 /* VanfiiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD78B0FE1C9E048F00F63389 /* Vanfiider */ = {
+			isa = PBXGroup;
+			children = (
+				DD78B0FF1C9E048F00F63389 /* AppDelegate.swift */,
+				DD78B1011C9E048F00F63389 /* ViewController.swift */,
+				DD78B1031C9E048F00F63389 /* Main.storyboard */,
+				DD78B1091C9E048F00F63389 /* Assets.xcassets */,
+				DD78B10B1C9E048F00F63389 /* LaunchScreen.storyboard */,
+				DD78B10E1C9E048F00F63389 /* Info.plist */,
+				DD78B1061C9E048F00F63389 /* Vanfiider.xcdatamodeld */,
+			);
+			path = Vanfiider;
+			sourceTree = "<group>";
+		};
+		DD78B1161C9E048F00F63389 /* VanfiiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD78B1171C9E048F00F63389 /* VanfiiderTests.swift */,
+				DD78B1191C9E048F00F63389 /* Info.plist */,
+			);
+			path = VanfiiderTests;
+			sourceTree = "<group>";
+		};
+		DD78B1211C9E048F00F63389 /* VanfiiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD78B1221C9E048F00F63389 /* VanfiiderUITests.swift */,
+				DD78B1241C9E048F00F63389 /* Info.plist */,
+			);
+			path = VanfiiderUITests;
+			sourceTree = "<group>";
+		};
+		EE6C108FD5507E3BEBAE7C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EADB148421CE79F85C6FC79 /* Pods_Vanfiider.framework */,
+				51F447BA056BDFC83D9C4306 /* Pods_VanfiiderTests.framework */,
+				615BA5267CAE05EE9CAF562C /* Pods_VanfiiderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD78B0FB1C9E048F00F63389 /* Vanfiider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD78B1271C9E048F00F63389 /* Build configuration list for PBXNativeTarget "Vanfiider" */;
+			buildPhases = (
+				6648B4CF38771D80A99FBD95 /* Check Pods Manifest.lock */,
+				DD78B0F81C9E048F00F63389 /* Sources */,
+				DD78B0F91C9E048F00F63389 /* Frameworks */,
+				DD78B0FA1C9E048F00F63389 /* Resources */,
+				C45001F8D3C140EA319BE645 /* Embed Pods Frameworks */,
+				1E879EC202C2480231064360 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vanfiider;
+			productName = Vanfiider;
+			productReference = DD78B0FC1C9E048F00F63389 /* Vanfiider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD78B1121C9E048F00F63389 /* VanfiiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD78B12A1C9E048F00F63389 /* Build configuration list for PBXNativeTarget "VanfiiderTests" */;
+			buildPhases = (
+				E47A1594DBB899E28D3ED0DE /* Check Pods Manifest.lock */,
+				DD78B10F1C9E048F00F63389 /* Sources */,
+				DD78B1101C9E048F00F63389 /* Frameworks */,
+				DD78B1111C9E048F00F63389 /* Resources */,
+				31467859C9EE3EE4E8805928 /* Embed Pods Frameworks */,
+				95B5AFFD2AA6040759BE160C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD78B1151C9E048F00F63389 /* PBXTargetDependency */,
+			);
+			name = VanfiiderTests;
+			productName = VanfiiderTests;
+			productReference = DD78B1131C9E048F00F63389 /* VanfiiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD78B11D1C9E048F00F63389 /* VanfiiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD78B12D1C9E048F00F63389 /* Build configuration list for PBXNativeTarget "VanfiiderUITests" */;
+			buildPhases = (
+				3186CEAD57F2AC0A965569CA /* Check Pods Manifest.lock */,
+				DD78B11A1C9E048F00F63389 /* Sources */,
+				DD78B11B1C9E048F00F63389 /* Frameworks */,
+				DD78B11C1C9E048F00F63389 /* Resources */,
+				BE63160811B79D81C0C2154B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD78B1201C9E048F00F63389 /* PBXTargetDependency */,
+			);
+			name = VanfiiderUITests;
+			productName = VanfiiderUITests;
+			productReference = DD78B11E1C9E048F00F63389 /* VanfiiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD78B0F41C9E048F00F63389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fiidup.Vanfiider;
+				TargetAttributes = {
+					DD78B0FB1C9E048F00F63389 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DD78B1121C9E048F00F63389 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DD78B0FB1C9E048F00F63389;
+					};
+					DD78B11D1C9E048F00F63389 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DD78B0FB1C9E048F00F63389;
+					};
+				};
+			};
+			buildConfigurationList = DD78B0F71C9E048F00F63389 /* Build configuration list for PBXProject "Vanfiider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD78B0F31C9E048F00F63389;
+			productRefGroup = DD78B0FD1C9E048F00F63389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD78B0FB1C9E048F00F63389 /* Vanfiider */,
+				DD78B1121C9E048F00F63389 /* VanfiiderTests */,
+				DD78B11D1C9E048F00F63389 /* VanfiiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD78B0FA1C9E048F00F63389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD78B10D1C9E048F00F63389 /* LaunchScreen.storyboard in Resources */,
+				DD78B10A1C9E048F00F63389 /* Assets.xcassets in Resources */,
+				DD78B1051C9E048F00F63389 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD78B1111C9E048F00F63389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD78B11C1C9E048F00F63389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E879EC202C2480231064360 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vanfiider/Pods-Vanfiider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31467859C9EE3EE4E8805928 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VanfiiderTests/Pods-VanfiiderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3186CEAD57F2AC0A965569CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6648B4CF38771D80A99FBD95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95B5AFFD2AA6040759BE160C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VanfiiderTests/Pods-VanfiiderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE63160811B79D81C0C2154B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VanfiiderUITests/Pods-VanfiiderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C45001F8D3C140EA319BE645 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vanfiider/Pods-Vanfiider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E47A1594DBB899E28D3ED0DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD78B0F81C9E048F00F63389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD78B1021C9E048F00F63389 /* ViewController.swift in Sources */,
+				DD78B1081C9E048F00F63389 /* Vanfiider.xcdatamodeld in Sources */,
+				DD78B1001C9E048F00F63389 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD78B10F1C9E048F00F63389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD78B1181C9E048F00F63389 /* VanfiiderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD78B11A1C9E048F00F63389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD78B1231C9E048F00F63389 /* VanfiiderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD78B1151C9E048F00F63389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD78B0FB1C9E048F00F63389 /* Vanfiider */;
+			targetProxy = DD78B1141C9E048F00F63389 /* PBXContainerItemProxy */;
+		};
+		DD78B1201C9E048F00F63389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD78B0FB1C9E048F00F63389 /* Vanfiider */;
+			targetProxy = DD78B11F1C9E048F00F63389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD78B1031C9E048F00F63389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD78B1041C9E048F00F63389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD78B10B1C9E048F00F63389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD78B10C1C9E048F00F63389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD78B1251C9E048F00F63389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD78B1261C9E048F00F63389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD78B1281C9E048F00F63389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DF7F1BF45B7DDA20D0F66B /* Pods-Vanfiider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vanfiider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fiidup.Vanfiider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD78B1291C9E048F00F63389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FF12CD028A1E7AD949BCE8 /* Pods-Vanfiider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vanfiider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fiidup.Vanfiider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD78B12B1C9E048F00F63389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2B8E71A9145885C12BB205 /* Pods-VanfiiderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VanfiiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fiidup.VanfiiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vanfiider.app/Vanfiider";
+			};
+			name = Debug;
+		};
+		DD78B12C1C9E048F00F63389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1561B4326CD0778520BF772A /* Pods-VanfiiderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VanfiiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fiidup.VanfiiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vanfiider.app/Vanfiider";
+			};
+			name = Release;
+		};
+		DD78B12E1C9E048F00F63389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86244E23EF9C542EAB63D3C /* Pods-VanfiiderUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = VanfiiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fiidup.VanfiiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vanfiider;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD78B12F1C9E048F00F63389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD2646F2365EAB38D9DAEF3 /* Pods-VanfiiderUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = VanfiiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fiidup.VanfiiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vanfiider;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD78B0F71C9E048F00F63389 /* Build configuration list for PBXProject "Vanfiider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD78B1251C9E048F00F63389 /* Debug */,
+				DD78B1261C9E048F00F63389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD78B1271C9E048F00F63389 /* Build configuration list for PBXNativeTarget "Vanfiider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD78B1281C9E048F00F63389 /* Debug */,
+				DD78B1291C9E048F00F63389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD78B12A1C9E048F00F63389 /* Build configuration list for PBXNativeTarget "VanfiiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD78B12B1C9E048F00F63389 /* Debug */,
+				DD78B12C1C9E048F00F63389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD78B12D1C9E048F00F63389 /* Build configuration list for PBXNativeTarget "VanfiiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD78B12E1C9E048F00F63389 /* Debug */,
+				DD78B12F1C9E048F00F63389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD78B1061C9E048F00F63389 /* Vanfiider.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD78B1071C9E048F00F63389 /* Vanfiider.xcdatamodel */,
+			);
+			currentVersion = DD78B1071C9E048F00F63389 /* Vanfiider.xcdatamodel */;
+			path = Vanfiider.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD78B0F41C9E048F00F63389 /* Project object */;
+}
