@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="o5U-x7-ufz">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Explore View Controller-->
+        <scene sceneID="Hgn-TN-JeL">
+            <objects>
+                <viewController storyboardIdentifier="ExploreViewController" id="67d-2u-aVc" customClass="ExploreViewController" customModule="Vanfiider" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UPi-8M-Z6w"/>
+                        <viewControllerLayoutGuide type="bottom" id="2wU-Lq-8PR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8lC-Rb-MLz">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.19411016580000001" blue="0.37229948159999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBE-Vl-FQo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661.5" y="1130.25"/>
+        </scene>
+        <!--Pantry View Controller-->
+        <scene sceneID="J8L-VJ-8su">
+            <objects>
+                <viewController storyboardIdentifier="PantryViewController" id="CEp-uI-YcM" customClass="PantryViewController" customModule="Vanfiider" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pAV-sp-7bg"/>
+                        <viewControllerLayoutGuide type="bottom" id="rxm-6X-Yke"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="PantryViewController" id="tOm-YV-qh6" customClass="PantryViewController">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.015686274510000001" green="0.95686274510000002" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhs-C9-tIx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1306.5" y="1130.25"/>
+        </scene>
+        <!--Vanfiider-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Vanfiider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +51,80 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOP-DD-5G7">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <connections>
+                                    <segue destination="Q1T-0k-rFj" kind="embed" id="cXV-W5-9Jc"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jOP-DD-5G7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="6IV-sV-vc2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jOP-DD-5G7" secondAttribute="trailing" constant="-20" id="a7t-Zx-aEr"/>
+                            <constraint firstItem="jOP-DD-5G7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="blm-Qg-5AX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jOP-DD-5G7" secondAttribute="bottom" id="oub-pz-Pal"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jOP-DD-5G7"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6IV-sV-vc2"/>
+                                <exclude reference="a7t-Zx-aEr"/>
+                                <exclude reference="blm-Qg-5AX"/>
+                                <exclude reference="oub-pz-Pal"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="jOP-DD-5G7"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6IV-sV-vc2"/>
+                                <include reference="a7t-Zx-aEr"/>
+                                <include reference="blm-Qg-5AX"/>
+                                <include reference="oub-pz-Pal"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="Vanfiider" id="Ie1-uN-S9v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1278" y="399"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WTY-nO-axH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o5U-x7-ufz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ycq-EB-E3d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xxg-A9-fvg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rHv-GH-eSU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="399"/>
+        </scene>
+        <!--Paging Menu Controller-->
+        <scene sceneID="l9L-11-PWN">
+            <objects>
+                <viewController id="Q1T-0k-rFj" customClass="PagingMenuController" customModule="PagingMenuController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AQV-OX-cir">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pnC-XZ-qgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1971" y="399"/>
         </scene>
     </scenes>
 </document>

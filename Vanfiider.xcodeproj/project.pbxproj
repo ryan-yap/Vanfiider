@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		69A671A97E1A84498CB6F617 /* Pods_Vanfiider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EADB148421CE79F85C6FC79 /* Pods_Vanfiider.framework */; };
 		BDF6D1F296BAC4B95A46ED93 /* Pods_VanfiiderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F447BA056BDFC83D9C4306 /* Pods_VanfiiderTests.framework */; };
+		DD3005251C9E129400AD7814 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3005241C9E129400AD7814 /* ExploreViewController.swift */; };
+		DD3005271C9E129F00AD7814 /* PantryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3005261C9E129F00AD7814 /* PantryViewController.swift */; };
 		DD78B1001C9E048F00F63389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B0FF1C9E048F00F63389 /* AppDelegate.swift */; };
 		DD78B1021C9E048F00F63389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1011C9E048F00F63389 /* ViewController.swift */; };
 		DD78B1051C9E048F00F63389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD78B1031C9E048F00F63389 /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		86DF7F1BF45B7DDA20D0F66B /* Pods-Vanfiider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vanfiider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vanfiider/Pods-Vanfiider.debug.xcconfig"; sourceTree = "<group>"; };
 		8AD2646F2365EAB38D9DAEF3 /* Pods-VanfiiderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanfiiderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VanfiiderUITests/Pods-VanfiiderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DC2B8E71A9145885C12BB205 /* Pods-VanfiiderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanfiiderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VanfiiderTests/Pods-VanfiiderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3005241C9E129400AD7814 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		DD3005261C9E129F00AD7814 /* PantryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PantryViewController.swift; sourceTree = "<group>"; };
 		DD78B0FC1C9E048F00F63389 /* Vanfiider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vanfiider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD78B0FF1C9E048F00F63389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD78B1011C9E048F00F63389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				DD78B10B1C9E048F00F63389 /* LaunchScreen.storyboard */,
 				DD78B10E1C9E048F00F63389 /* Info.plist */,
 				DD78B1061C9E048F00F63389 /* Vanfiider.xcdatamodeld */,
+				DD3005241C9E129400AD7814 /* ExploreViewController.swift */,
+				DD3005261C9E129F00AD7814 /* PantryViewController.swift */,
 			);
 			path = Vanfiider;
 			sourceTree = "<group>";
@@ -430,9 +436,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3005251C9E129400AD7814 /* ExploreViewController.swift in Sources */,
 				DD78B1021C9E048F00F63389 /* ViewController.swift in Sources */,
 				DD78B1081C9E048F00F63389 /* Vanfiider.xcdatamodeld in Sources */,
 				DD78B1001C9E048F00F63389 /* AppDelegate.swift in Sources */,
+				DD3005271C9E129F00AD7814 /* PantryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
