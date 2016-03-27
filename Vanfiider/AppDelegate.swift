@@ -9,14 +9,25 @@
 import UIKit
 import CoreData
 
+let screenSize: CGRect = UIScreen.mainScreen().bounds
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func configureNavigationBar(){
+        UINavigationBar.appearance().barTintColor = UIColor(red: 63/255.0, green: 87/255.0, blue: 101/255.0, alpha: 1.0)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+    }
+    
+    func configureUI(){
+        self.configureNavigationBar()
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.configureUI()
         return true
     }
 

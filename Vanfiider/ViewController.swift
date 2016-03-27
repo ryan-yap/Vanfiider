@@ -22,7 +22,9 @@ class ViewController: UIViewController {
         let viewControllers = [viewController1, viewController2]
         
         var options = PagingMenuOptions()
-        options.menuHeight = 0;
+        options.menuPosition = .Bottom
+        options.menuDisplayMode = .SegmentedControl
+        options.menuHeight = 60;
         let pagingMenuController = self.childViewControllers.first as! PagingMenuController
         pagingMenuController.setup(viewControllers: viewControllers, options: options)
         // Do any additional setup after loading the view, typically from a nib.

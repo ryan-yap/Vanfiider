@@ -19,6 +19,8 @@
 		DD78B10D1C9E048F00F63389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD78B10B1C9E048F00F63389 /* LaunchScreen.storyboard */; };
 		DD78B1181C9E048F00F63389 /* VanfiiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1171C9E048F00F63389 /* VanfiiderTests.swift */; };
 		DD78B1231C9E048F00F63389 /* VanfiiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1221C9E048F00F63389 /* VanfiiderUITests.swift */; };
+		DD97FAEC1CA7C51900B1EFBE /* ExploreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97FAEB1CA7C51900B1EFBE /* ExploreTableViewCell.swift */; };
+		DD97FAEE1CA7D12300B1EFBE /* Fiid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97FAED1CA7D12300B1EFBE /* Fiid.swift */; };
 		F17A443934B7029A2803C805 /* Pods_VanfiiderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615BA5267CAE05EE9CAF562C /* Pods_VanfiiderUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		DD78B11E1C9E048F00F63389 /* VanfiiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanfiiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD78B1221C9E048F00F63389 /* VanfiiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanfiiderUITests.swift; sourceTree = "<group>"; };
 		DD78B1241C9E048F00F63389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD97FAEB1CA7C51900B1EFBE /* ExploreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreTableViewCell.swift; sourceTree = "<group>"; };
+		DD97FAED1CA7D12300B1EFBE /* Fiid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fiid.swift; sourceTree = "<group>"; };
 		E4FF12CD028A1E7AD949BCE8 /* Pods-Vanfiider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vanfiider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vanfiider/Pods-Vanfiider.release.xcconfig"; sourceTree = "<group>"; };
 		E86244E23EF9C542EAB63D3C /* Pods-VanfiiderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanfiiderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VanfiiderUITests/Pods-VanfiiderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +146,8 @@
 				DD78B1061C9E048F00F63389 /* Vanfiider.xcdatamodeld */,
 				DD3005241C9E129400AD7814 /* ExploreViewController.swift */,
 				DD3005261C9E129F00AD7814 /* PantryViewController.swift */,
+				DD97FAEB1CA7C51900B1EFBE /* ExploreTableViewCell.swift */,
+				DD97FAED1CA7D12300B1EFBE /* Fiid.swift */,
 			);
 			path = Vanfiider;
 			sourceTree = "<group>";
@@ -439,6 +445,8 @@
 				DD3005251C9E129400AD7814 /* ExploreViewController.swift in Sources */,
 				DD78B1021C9E048F00F63389 /* ViewController.swift in Sources */,
 				DD78B1081C9E048F00F63389 /* Vanfiider.xcdatamodeld in Sources */,
+				DD97FAEE1CA7D12300B1EFBE /* Fiid.swift in Sources */,
+				DD97FAEC1CA7C51900B1EFBE /* ExploreTableViewCell.swift in Sources */,
 				DD78B1001C9E048F00F63389 /* AppDelegate.swift in Sources */,
 				DD3005271C9E129F00AD7814 /* PantryViewController.swift in Sources */,
 			);
