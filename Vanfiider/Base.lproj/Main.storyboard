@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,6 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2wU-Lq-8PR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8lC-Rb-MLz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.19411016580000001" blue="0.37229948159999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -32,6 +34,7 @@
                         <viewControllerLayoutGuide type="bottom" id="rxm-6X-Yke"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="PantryViewController" id="tOm-YV-qh6" customClass="PantryViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.015686274510000001" green="0.95686274510000002" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -71,10 +74,10 @@
                                 <exclude reference="jOP-DD-5G7"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="oub-pz-Pal"/>
                                 <exclude reference="6IV-sV-vc2"/>
                                 <exclude reference="a7t-Zx-aEr"/>
                                 <exclude reference="blm-Qg-5AX"/>
-                                <exclude reference="oub-pz-Pal"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -82,10 +85,10 @@
                                 <include reference="jOP-DD-5G7"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="oub-pz-Pal"/>
                                 <include reference="6IV-sV-vc2"/>
                                 <include reference="a7t-Zx-aEr"/>
                                 <include reference="blm-Qg-5AX"/>
-                                <include reference="oub-pz-Pal"/>
                             </mask>
                         </variation>
                     </view>
@@ -117,7 +120,12 @@
         <scene sceneID="l9L-11-PWN">
             <objects>
                 <viewController id="Q1T-0k-rFj" customClass="PagingMenuController" customModule="PagingMenuController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XX1-cs-WDH"/>
+                        <viewControllerLayoutGuide type="bottom" id="fud-jq-osE"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AQV-OX-cir">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
